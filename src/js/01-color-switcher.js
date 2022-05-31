@@ -13,10 +13,10 @@ function getRandomHexColor() {
 }
 
 function onStartBtnClick() {
-  const addbackgroundColor = () => {
+  const addBackgroundColor = () => {
     document.body.style.backgroundColor = getRandomHexColor();
   };
-  intervalId = setInterval(addbackgroundColor, 1000);
+  intervalId = setInterval(addBackgroundColor, 1000);
   refs.startBtn.disabled = true;
   refs.stopBtn.disabled = false;
 }
