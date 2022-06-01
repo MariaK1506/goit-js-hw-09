@@ -16,3 +16,27 @@ img {
   display: block;
   max-width: 100%;
 }
+
+#datetime-picker {
+  font-size: 25px;
+  background-color: darkgray;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.field {
+  display: inline-flex;
+  flex-direction: column;
+  margin-right: 10px;
+  padding: 10px;
+  font-size: 25px;
+  border: solid 2px #212121;
+  border-radius: 5px;
+}
+.value {
+  display: block;
+  text-align: center;
+}
+.label {
+  color: darkgrey;
+}
