@@ -19,6 +19,7 @@ img {
 
 #datetime-picker {
   font-size: 25px;
+  width: 300px;
   background-color: darkgray;
   margin-bottom: 10px;
   border-radius: 5px;
@@ -34,6 +35,7 @@ img {
   border-radius: 5px;
 }
 .value {
+  font-size: 40px;
   display: block;
   text-align: center;
 }

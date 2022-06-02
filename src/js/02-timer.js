@@ -26,8 +26,8 @@ function onStartTimer() {
     const deltaTime = selectedTime - currentTime;
     // console.log(selectedTime);
     if (deltaTime >= 0) {
-      const componentsTimer = convertMs(deltaTime);
-      updateClockFace(componentsTimer);
+      const elementsTimer = convertMs(deltaTime);
+      updateClockFace(elementsTimer);
     } else {
       clearInterval(timerId);
     }
