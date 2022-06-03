@@ -45,7 +45,7 @@ function onStartTimer() {
 //     const componentsTimer = convertMs(deltaTime);
 //     updateClockFace(componentsTimer);
 //     if (deltaTime <= 0) {
-//       // console.log('end!!!!');
+//            // console.log('end!!!!');
 //       clearInterval(timerId);
 //     }
 //   }, 1000);

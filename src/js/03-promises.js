@@ -13,8 +13,8 @@ function onFormSubmit(event) {
   event.preventDefault();
 
   let firstDelay = parseInt(refs.inputDelay.value);
-  let delayStep = parseInt(refs.inputStep.value);
-  let amount = parseInt(refs.inputAmount.value);
+  const delayStep = parseInt(refs.inputStep.value);
+  const amount = parseInt(refs.inputAmount.value);
 
   for (let i = 1; i <= amount; i += 1) {
     createPromise(i, firstDelay)
